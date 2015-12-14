@@ -1,0 +1,27 @@
+{
+  "name": "mixmax-auto-resolver",
+  "version": "0.0.1",
+  "description": "Best guess resolver for Mixmax",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DavidChouinard/mixmax-auto-resolver.git"
+  },
+  "author": "David Chouinard <david@davidchouinard.com>",
+  "license": "Public domain",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "cors": "^2.7.1",
+    "express": "^4.12.3",
+    "synchronize": "^0.9.14",
+    "underscore": "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest"
+  },
+  "devDependencies": {
+    "nodemon": "^1.7.1"
+  }
+}
