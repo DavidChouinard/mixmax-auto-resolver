@@ -57,10 +57,6 @@ module.exports = function(req, res) {
 
     html += '</div>';
 
-    //res.writeHeader(200, {"Content-Type": "text/html"});
-    //res.write(html);
-    //res.end();
-
     res.json({
       body: html
     });
